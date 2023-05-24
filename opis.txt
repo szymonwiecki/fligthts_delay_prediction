@@ -1,0 +1,31 @@
+YEAR - rok lotu
+MONTH - miesiąc lotu
+DAY - dzień miesiąca lotu
+DAY_OF_WEEK = dzień tygodnia lotu
+AIRLINE - ID lini lotniczej
+FLIGHT_NUMBER - ID lotu
+TAIL_NUMBER - ID samolotu
+ORIGIN_AIRPORT - lostnisko początkowe
+DESTINATION_AIRPORT - lostniko końcowe
+SCHEDULED_DEPARTURE - planowana godzina wylotu
+DEPARTURE_TIME - rzeczywista godzina wyloty
+DEPARTURE_DELAY - opóźnienie, bądź przyspieszenie wylotu w minutach (DEPARTURE_TIME - DEPARTURE_DELAY)
+TAXI_OUT - czas w minutach od startu manewrowania do oderwania się kół od ziemi
+WHEELS_OFF - godzina oderwanie się kół od ziemi
+SHEDULED_TIME - planowany czas lotu (nwm jaka jednostka, nie pasują ani minuty ani godziny nic)
+ELAPSED_TIME - (AIR_TIME + TAXI_IN + TAXI_OUT)
+AIR_TIME - czas między oderwanie kół od ziemi a wylądowaniem (dotknięcia ziemi kołami)
+DISTANCE - dystans między lotniskami, najprawdopodobniej w kilometrach
+WHEELS_ON - godzina dotknięcia ziemi kołami
+TAXI_IN - czas w minutach od dotknięcia ziemi kołami do końca manewrowania
+SCHEDULED_ARRIVAL - planowana godzina powrotu
+ARRIVAL_TIME - rzeczywista godzina przylotu
+ARRIVAL_DELAY - opóźnienie, bądź przyspieszenie przylotu w minutach
+DIVERTED - samolot wylądował na nieplanowanym lotnisku
+CANCELLED - czy lot został anulowany
+CANCELLED_REASON - powód anulowania lotu
+AIR_SYSTEM_DELAY - czas opóźnienia w minutach spowodowany systemem powietrza
+SECURITY_DELAY - czas opóźnienia w minutach spowodowany ochroną
+AIRLINE_DELAY - czas opóźnienia w minutach spowodowany linią lotniczą
+LATE_AIRCRAFT_DELAY - czas opóźnienia w minutach spowodowany samolotem
+WEATHER_DELAY - czas opóźnienia w minutach spowodowany pogodą
